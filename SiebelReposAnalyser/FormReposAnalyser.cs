@@ -108,7 +108,7 @@ namespace SiebelReposAnalyser
             _orbStyleIndex = Settings.Default.OfficeStyleIndex;
 
             ribbonMain.OrbStyle = _orbStyle;
-            ribbonButtonStyle.DropDownItems[_orbStyleIndex].Checked = true;
+            //ribbonButtonStyle.DropDownItems[_orbStyleIndex].Checked = false;
 
             _orbTheme = Settings.Default.ThemeColour;
             _orbThemeIndex = Settings.Default.ThemeIndex;
