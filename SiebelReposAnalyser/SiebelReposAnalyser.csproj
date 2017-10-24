@@ -51,7 +51,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Resources\REPOS_application_find.ico</ApplicationIcon>
+    <ApplicationIcon>REPOS_main.png</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -127,6 +127,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AutomaticUpdater, Version=2.6.18.4, Culture=neutral, PublicKeyToken=437887616030daaf, processorArchitecture=MSIL">
@@ -377,6 +380,8 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="REPOS_main.png" />
+    <Content Include="Resources\REPOS_main.png" />
     <Content Include="Updates.txt" />
   </ItemGroup>
   <ItemGroup>
