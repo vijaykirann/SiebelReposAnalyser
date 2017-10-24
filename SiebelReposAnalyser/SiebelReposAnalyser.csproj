@@ -51,7 +51,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>REPOS_main.png</ApplicationIcon>
+    <ApplicationIcon>REPOS_main.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -381,6 +381,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="REPOS_main.png" />
+    <Content Include="Resources\REPOS_main.ico" />
     <Content Include="Resources\REPOS_main.png" />
     <Content Include="Updates.txt" />
   </ItemGroup>
